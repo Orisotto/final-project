@@ -1,0 +1,90 @@
+// ----------Colors & Fonts----------
+//     gillSans
+//     ptSerifReg
+//     ptSerifItal
+//     ptSerifBold
+//     ptSerifBoldItal
+
+//     rgba(255, 209, 64, 1)
+//     rgba(84, 13, 110, 1)
+//     rgba(238, 67, 103, 1)
+//     rgba(59, 206, 171, 1)
+//     rgba(8, 173, 105, 1)
+// ----------------------------------
+
+.galleryContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .bumper {
+        width: 100%;
+        height: 100px;
+    }
+
+    .galleryContent {
+        width: 980px;
+        height: 100%;
+
+        .galleryHeader {
+            width: 230px;
+            height: 45px;
+            margin-top: 62px;
+            border-bottom: solid 2px black;
+
+            h1 {
+                font-family: gillSans;
+            }
+        }
+    
+        .galleryImages {
+            width: 980px;
+            height: 515px;
+            margin-top: 30px;
+            margin-bottom: 60px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+
+            .galleryHero {
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            #foodFestHero {
+                width: 490px;
+                height: 187px;
+                background-image: linear-gradient(rgba(255, 209, 64, .75), rgba(255, 209, 64, .75)), url(../images/foodFestival.png);
+            }
+
+            #deeJayHero {
+                width: 187px;
+                height: 187px;
+                background-image: linear-gradient(rgba(238, 67, 103, .75), rgba(238, 67, 103, .75)), url(../images/dee-jay.jpeg);
+            }
+
+            #speechHero {
+                width: 265px;
+                height: 187px;
+                background-image: linear-gradient(rgba(8, 173, 105, .75), rgba(6, 173, 105, .75)), url(../images/speech.jpg);
+            }
+
+            #openFestHero {
+                width: 603px;
+                height: 306px;
+                background-image: linear-gradient(rgba(84, 13, 110, .75), rgba(84, 13, 110, .75)), url(../images/openFoodfest.jpg);
+            }
+
+            #interHero {
+                width: 355px;
+                height: 306px;
+                background-image: linear-gradient(rgba(59, 206, 171, .75), rgba(59, 206, 171, .75)), url(../images/international.png);
+            }
+        }
+    }
+}

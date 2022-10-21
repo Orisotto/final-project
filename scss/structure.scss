@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-bottom: 16px;
+}
+
+@font-face {
+    font-family: gillSans;
+    src: url(./css/fonts/GillSans.ttc);
+}
+
+@font-face {
+    font-family: ptSerifReg;
+    src: url(./css/fonts/PTSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: ptSerifItal;
+    src: url(./css/fonts/PTSerif-Italic.ttf);
+}
+
+@font-face {
+    font-family: ptSerifBold;
+    src: url(../css/fonts/PTSerif-Bold.ttf);
+}
+
+@font-face {
+    font-family: ptSerifBoldItal;
+    src: url(../css/fonts/PTSerif-BoldItalic.ttf);
+}
+
+// ----------Colors----------
+    // rgba(255, 209, 64, 1)
+    // rgba(84, 13, 110, 1)
+    // rgba(238, 67, 103, 1)
+    // rgba(59, 206, 171, 1)
+    // rgba(8, 173, 105, 1)
+// ----------------------------
+
+.siteContainer {
+    width: 100%;
+}

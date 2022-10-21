@@ -1,0 +1,79 @@
+// ----------Colors & Fonts----------
+//     gillSans
+//     ptSerifReg
+//     ptSerifItal
+//     ptSerifBold
+//     ptSerifBoldItal
+
+//     rgba(255, 209, 64, 1)
+//     rgba(84, 13, 110, 1)
+//     rgba(238, 67, 103, 1)
+//     rgba(59, 206, 171, 1)
+//     rgba(8, 173, 105, 1)
+// ----------------------------------
+nav {
+    width: 980px;
+    height: 93px;
+    margin: 0 auto;
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+
+    .navHolder {
+        width: 980px;
+        height: 93px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: solid 2px white;
+
+        #logo {
+            width: 92px;
+            height: 42px;
+        }
+
+        #links {
+            width: 336px;
+            display: flex;
+            justify-content: space-between;
+
+            a {
+                font-family: gillSans;
+                font-size: 15px;
+                text-decoration: none;
+                color: white;
+            }
+
+            span {
+                color: rgba(238, 67, 103, 1);
+                font-size: 20px;
+            }
+        }
+    }
+
+    .navHolderBlack {
+        border-bottom: solid 2px black !important; 
+        
+        .logoBlack {
+            #rectangleSix {
+                stroke: #000;
+            }
+
+            #eventsy {
+                fill: #000;
+            }
+        }
+
+        .linksBlack {
+
+            a {
+                color: black !important; 
+            }
+        }
+    }
+}

@@ -1,0 +1,84 @@
+// ----------Colors & Fonts----------
+//     gillSans
+//     ptSerifReg
+//     ptSerifItal
+//     ptSerifBold
+//     ptSerifBoldItal
+
+    // rgba(255, 209, 64, 1)
+    // rgba(84, 13, 110, 1)
+    // rgba(238, 67, 103, 1)
+    // rgba(59, 206, 171, 1)
+    // rgba(8, 173, 105, 1)
+// ----------------------------------
+
+.blogPageContainer {
+    width: 980px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin: 0 auto;
+
+    .bumper {
+        width: 100%;
+        height: 100px;
+    }
+
+    .blogHero {
+        width: 980px;
+        height: 300px;
+        background-image: linear-gradient(to right rgba(238, 67, 103, .75), rgba(238, 67, 103, .75)), url(../images/blog.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .datePosted {
+            width: 155px;
+            height: 155px;
+            font-family: gillSans;
+            text-align: center;
+            padding-top: 20px;
+            background-color: rgba(238, 67, 103, 1);
+            color: white;
+
+            p {
+                font-size: 30px;
+            }
+
+            span {
+                font-size: 50px;
+                font-weight: bold;
+            }
+        }
+    }
+
+    .blogWriteUp {
+        font-family: gillSans;
+        font-size: 20px;
+
+        .blogHeader {
+            color: rgba(238, 67, 103, 1);
+            margin-top: 53px;
+            margin-bottom: 30px;
+        }
+
+        .textBoxTall {
+            width: 856px;
+            height: 125px;
+            margin-bottom: 30px;
+        }
+
+        .textBoxShort {
+            width: 856px;
+            height: 84px;
+        }
+
+        #endBox {
+            margin-bottom: 150px;
+        }
+    }
+}

@@ -1,0 +1,178 @@
+// ----------Colors & Fonts----------
+//     gillSans
+//     ptSerifReg
+//     ptSerifItal
+//     ptSerifBold
+//     ptSerifBoldItal
+
+//     rgba(255, 209, 64, 1)
+//     rgba(84, 13, 110, 1)
+//     rgba(238, 67, 103, 1)
+//     rgba(59, 206, 171, 1)
+//     rgba(8, 173, 105, 1)
+// ----------------------------------
+
+.homePage {
+    .heroHome {
+        width: 100%;
+        height: 500px;
+        background-image: linear-gradient(to right rgba(255, 209, 64, .75), rgba(255, 209, 64, .75)), url(../images/home-hero.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .callout {
+            width: 484px;
+            height: 271px;
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            #homeHeader {
+                font-family: ptSerifReg;
+                font-size: 40px;
+                text-align: center;
+                margin-bottom: 6px;
+                color: white;
+            }
+
+            .subLine {
+                font-family: gillSans;
+                font-style: italic;
+                font-size: 20px;
+                text-align: center;
+                color: white;
+            }
+
+            span {
+                margin-top: 0px;
+                color: rgba(238, 67, 103, 1) !important;
+            }
+
+            #subTitle {
+                margin-top: 46px;
+            }
+
+            .readMore {
+                width: 122px;
+                height: 40px;
+                border: none;
+                margin-top: 30px;
+                background-color: rgba(238, 67, 103, 1);
+                color: white;
+            }
+        }
+    }
+
+    .mainBody {
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .description {
+            width: 789px;
+            height: 130px;
+
+            #textBox {
+                font-family: gillSans;
+                font-size: 15px;
+                font-weight: bold;
+                font-style: italic;
+                color: rgba(255, 209, 64, 1);
+            }
+            #ceoName {
+                font-family: ptSerif;
+                font-size: 15px;
+                margin-bottom: 0px;
+                color: rgba(238, 67, 103, 1);
+            }
+
+            #jobRole {
+                font-family: ptSerif;
+                font-size: 10px;
+                color: rgba(112, 112, 112, 1);
+            }
+        }
+    }
+
+    .upcomingEvents {
+        width: 100%;
+        height: 320px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(84, 13, 110, 1);
+
+        .eventContainer {
+            width: 1198px;
+            height: 200px;
+
+            h1 {
+                width: 336px;
+                font-family: gillSans;
+                font-size: 25px;
+                border-bottom: solid 2px white;
+                color: white;
+            }
+
+            .schedule {
+                width: 1198px;
+                height: 124px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .calendarContainer {
+                    width: 220px;
+                    height: 120px;
+                    display: flex;
+                    justify-content: space-between;
+
+                    .eventDate {
+                        width: 60px;
+                        height: 60px;
+                        font-family: gillSans;
+                        font-weight: bold;
+                        font-size: 12px;
+                        text-align: center;
+                        padding-top: 7px;
+                        background-color: rgba(238, 67, 103, 1);
+                        color: white;
+
+                        span {
+                            font-size: 22px;
+                        }
+                    }
+
+                    .detailContainer {
+                        display: flex;
+                        flex-direction: column;
+
+                        .eventName {
+                            width: 140px;
+                            height: 40px;
+                            font-family: gillSans;
+                            font-size: 15px;
+                            color: white;
+                        }   
+
+                        .eventDetails {
+                            width: 140px;
+                            height: 78px;
+                            font-family: gillSans;
+                            font-size: 13px;
+                            color: rgba(238, 67, 103, 1);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

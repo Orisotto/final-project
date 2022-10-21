@@ -1,0 +1,96 @@
+// ----------Colors & Fonts----------
+//     gillSans
+//     ptSerifReg
+//     ptSerifItal
+//     ptSerifBold
+//     ptSerifBoldItal
+
+    // rgba(255, 209, 64, 1)
+    // rgba(84, 13, 110, 1)
+    // rgba(238, 67, 103, 1)
+    // rgba(59, 206, 171, 1)
+    // rgba(8, 173, 105, 1)
+// ----------------------------------
+
+.contactContainer {
+    width: 980px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+    .bumper {
+        width: 100%;
+        height: 100px;
+    }
+
+    .contactHeader {
+        width: 100%;
+        margin-bottom: 65px;
+
+        h1 {
+            font-family: gillSans;
+            text-align: start;
+            width: 229px;
+            border-bottom: solid 2px black;
+            padding-bottom: 10px;
+        }
+    }
+
+    .contactInfo {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 90px;
+
+        .inputFields {
+            width: 529px;
+            height: 523px;
+            font-family: gillSans;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 21px;
+            align-items: flex-start;
+
+            input {
+                width: 529px;
+                height: 60px;
+                padding-left: 21px;
+                background-color: rgba(245, 245, 245, 1);
+                border: none;
+            }
+
+            #message {
+                height: 199px;
+            }
+
+            button {
+                width: 167px;
+                height: 60px;
+                color: white;
+                background-color: rgba(238, 67, 103, 1);
+                border: none;
+            }
+        }
+
+        .mapContain {
+            width: 451px;
+            height: 523px;
+            display: flex;
+            flex-direction: row-reverse;
+
+            .mapImage {
+                width: 400px;
+                height: 442px;
+                background-image: url(../images/map.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        }
+    }
+
+}

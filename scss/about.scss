@@ -1,0 +1,56 @@
+// ----------Colors & Fonts----------
+//     gillSans
+//     ptSerifReg
+//     ptSerifItal
+//     ptSerifBold
+//     ptSerifBoldItal
+
+//     rgba(255, 209, 64, 1)
+//     rgba(84, 13, 110, 1)
+//     rgba(238, 67, 103, 1)
+//     rgba(59, 206, 171, 1)
+//     rgba(8, 173, 105, 1)
+// ----------------------------------
+
+.aboutContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .aboutHero {
+        width: 980px;
+        height: 380px;
+        background-image: linear-gradient(to right rgba(255, 209, 64, .75), rgba(255, 209, 64, .75)), url(../images/about.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 178px;
+    }
+
+    .ourStory {
+        width: 980px;
+
+        h1 {
+            font-family: gillSans;
+            font-size: 25px;
+            margin-top: -15px;
+        }
+
+        span {
+            padding-bottom: 20px;
+            border-bottom: solid 2px black;
+        }
+
+        p {
+            font-family: gillSans;
+            font-size: 16px;
+            font-weight: lighter;
+            font-style: italic;
+            padding-top: 36px;
+            padding-bottom: 95px;
+        }
+    }
+}
